@@ -8,22 +8,16 @@
 	snsr-reset = <&portc 8 GPIO_ACTIVE_LOW>, <&portc 8 GPIO_ACTIVE_LOW>, <&portc 8 GPIO_ACTIVE_LOW>;
 };
 
-&spi2 {
-	status = "okay";
 
-	spidev@0 {
-		status = "okay";
-	};
-};
 
 &uart4 {
 	status = "okay";
 };
 
-&i2c1 {
-       status = "okay";
-       clock-frequency = <100000>;
+&uart2 {
+	status = "okay";
 };
+
 
 / {
 
